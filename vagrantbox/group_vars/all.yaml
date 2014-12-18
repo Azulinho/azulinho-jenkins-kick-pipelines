@@ -1,0 +1,11 @@
+# vim: ft=yaml:foldmethod=indent:foldenable
+#
+
+
+# here we set the first jobs in the pipeline,
+# this will be used by the kick-pipeline role
+#
+azulinho_jenkins_kick_pipeline:
+  pipeline_first_jobs:
+    - jinja2_deploy_zabbix
+
