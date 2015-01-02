@@ -11,6 +11,7 @@
 
 - name: install httplib2
   pip: name=httplib2
+    executable=/usr/bin/pip
     state=present
   tags:
     - jenkins_pipeline
